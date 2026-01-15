@@ -1,4 +1,5 @@
 import Header from "./header";
+import LoginButton,{ProfileCard,SettingsPanel, userKey} from "./userComponent";
 
 function App() {
   return (
@@ -34,6 +35,14 @@ function Color() {
         <li>Blue</li>
         <li>Yellow</li>
       </ol>
+      <hr />
+    <LoginButton />
+    <hr />
+    <ProfileCard />
+    <hr />
+    <SettingsPanel />
+    <hr />
+    <div>User Key: {userKey}</div>
     </div>
   );
 }
