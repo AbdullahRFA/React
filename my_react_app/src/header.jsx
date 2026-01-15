@@ -1,9 +1,10 @@
-function Header() {
-  return (
-    <div>
-      <h3>This is header</h3>
-    </div>
-  );
+function Header(){
+    return(
+        <div>
+            <h1>Welcome to My React App</h1>
+            <h2>Enjoy your stay!</h2>
+        </div>
+    )
 }
 
 export default Header
