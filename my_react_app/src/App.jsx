@@ -52,3 +52,6 @@ function sumOfDigit(){
   return 5 + 10;
 }
 export default App;
+
+
+export var duration = "1h 22 minutes"
