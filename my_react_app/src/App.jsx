@@ -1,5 +1,9 @@
+import LoginButton, {
+  ProfileCard,
+  SettingsPanel,
+  userKey,
+} from "./features/userComponent";
 import Header from "./header";
-import LoginButton,{ProfileCard,SettingsPanel, userKey} from "./userComponent";
 
 function App() {
   return (
@@ -36,22 +40,20 @@ function Color() {
         <li>Yellow</li>
       </ol>
       <hr />
-    <LoginButton />
-    <hr />
-    <ProfileCard />
-    <hr />
-    <SettingsPanel />
-    <hr />
-    <div>User Key: {userKey}</div>
+      <LoginButton />
+      <hr />
+      <ProfileCard />
+      <hr />
+      <SettingsPanel />
+      <hr />
+      <div>User Key: {userKey}</div>
     </div>
   );
 }
 
-
-function sumOfDigit(){
+function sumOfDigit() {
   return 5 + 10;
 }
 export default App;
 
-
-export var duration = "1h 22 minutes"
+export var duration = "1h 22 minutes";
