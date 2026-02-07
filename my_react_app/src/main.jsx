@@ -11,7 +11,8 @@ import { createRoot } from "react-dom/client";
 // import App from './features/state_in_react.jsx'
 // import App from "./features/toggle.jsx";
 // import StudentName from "./features/props_with_click.jsx";
-import App from "./features/get_input_field_value.jsx";
+// import App from "./features/get_input_field_value.jsx";
+import App from "./features/control_component.jsx";
 
 
 createRoot(document.getElementById("root")).render(
