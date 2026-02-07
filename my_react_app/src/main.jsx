@@ -13,7 +13,8 @@ import { createRoot } from "react-dom/client";
 // import StudentName from "./features/props_with_click.jsx";
 // import App from "./features/get_input_field_value.jsx";
 // import App from "./features/control_component.jsx";
-import App from "./features/handle_check_box.jsx";
+// import App from "./features/handle_check_box.jsx";
+import App from "./features/loops_in_react.jsx";
 
 
 createRoot(document.getElementById("root")).render(
