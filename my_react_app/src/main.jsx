@@ -14,7 +14,9 @@ import { createRoot } from "react-dom/client";
 // import App from "./features/get_input_field_value.jsx";
 // import App from "./features/control_component.jsx";
 // import App from "./features/handle_check_box.jsx";
-import App from "./features/loops_in_react.jsx";
+// import App from "./features/loops_in_react.jsx";
+import App from "./features/reuse_component_in_loop.jsx";
+import ReusableComponent from "./features/reusable_cmpt.jsx";
 
 
 createRoot(document.getElementById("root")).render(
