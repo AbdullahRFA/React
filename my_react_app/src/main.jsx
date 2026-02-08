@@ -17,7 +17,8 @@ import { createRoot } from "react-dom/client";
 // import App from "./features/loops_in_react.jsx";
 // import App from "./features/reuse_component_in_loop.jsx";
 // import ReusableComponent from "./features/reusable_cmpt.jsx";
-import App from "./features/clock.jsx";
+// import App from "./features/clock.jsx";
+import App from "./features/nested_array_with_loop.jsx";
 
 
 createRoot(document.getElementById("root")).render(
